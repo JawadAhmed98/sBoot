@@ -30,6 +30,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.mockito.Mockito.*;
 
+// Import ResultMatcher
+import org.springframework.test.web.servlet.ResultMatcher;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)
 @ActiveProfiles("test")
